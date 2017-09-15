@@ -1,0 +1,258 @@
+body{
+    font-family: sans-serif;
+}
+
+.blue_container {
+    position: relative;
+    background: #494DA1;
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    padding: 60px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_items {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 200px;
+}
+
+.nav_items ul {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+    color: white;    
+    font-size: 12px;
+    letter-spacing: 3px;
+    opacity: .5;
+}
+
+.monsters {
+    position: absolute;
+    bottom:0px;
+    width: 700px;
+}
+
+.statement {
+    position: absolute;
+    right: 290px;
+    top: 230px;
+    color: white;
+    font-size: 45px;
+    line-height: 70px;
+}
+
+.button {
+    font-size: 16px;
+    border-radius: 25px;
+    background: #EE7CB1;
+    color: white;
+    width: 170px;
+    height: 50px;
+    margin-top: 40px;
+    border: none;
+    box-shadow: 7px 7px 50px #AA597F;
+}
+
+.white_container {
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    padding: 140px 200px;
+}
+
+.big_title {
+    font-size: 80px;
+    line-height: 95px;
+    letter-spacing: 5px;
+    display: flex;
+    float: left;
+}
+
+.pink_line {
+    position: absolute;
+    top: 460px;
+    background: #EE7CB1;
+    height: 7px;
+    width: 90px;
+}
+
+.white_container img {
+    position: absolute;
+    bottom: 0px;
+    left: -1px;
+    width: 565px;
+}
+
+.box_container {
+    position: absolute;
+    right: 0;
+    width: 40vw;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top_box {
+    width: 300px;
+    position: relative;
+}
+
+.top_box h2 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.top_box p {
+    font-size: 16px;
+    line-height: 30px;
+    color: gray;
+}
+
+.middle_box {
+    width: 300px;
+    position: relative;
+}
+
+.middle_box h2 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.middle_box p {
+    font-size: 16px;
+    line-height: 30px;
+    color: gray;
+}
+
+.bottom_box {
+    width: 300px;
+    position: relative;
+}
+
+.bottom_box h2 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.bottom_box p {
+    font-size: 16px;
+    line-height: 30px;
+    color: gray;
+}
+
+.gray_container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 140px 200px;
+    background: #F4F5F9;
+}
+
+.gray_container img {
+    position: absolute;
+    top: 110px;
+    right: 0;
+    width: 50vw;
+    display: flex;
+}
+
+.border_button {
+    position: absolute;
+    top: 570px;
+    right: 200px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid #EE7CB1;
+    color: #EE7CB1;
+    background: #F4F5F9;
+    width: 130px;
+    height: 50px;
+    margin-top: 40px;
+}
+
+.daily_routine {
+    position: relative;
+    height: 29vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    padding: 10px;
+}
+
+.daily_routine h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    display: flex;    
+    margin: 40px auto;
+}
+
+.pink_line2 {
+    background: #EE7CB1;
+    height: 7px;
+    width: 90px;
+    display: flex;
+}
+
+.img_blocks {
+    display: flex;
+}
+
+.img_blocks img {
+    width: 25%;
+    height: 350px;
+}
+
+.dark_container {
+    position: relative;
+    background: #3D4061;
+    width: 100%;
+    height: 45vh;
+    padding: 80px 190px;
+}
+
+.dark_container h1 {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 7px;
+}
+
+.dark_container p {
+    color: white;
+    opacity: .5;
+    font-size: 14px;
+    margin: 20px 0px;
+    letter-spacing: 5px;
+}
+
+.social_icons img {
+    width: 400px;
+    margin-top: 20px;
+}
+
+.button2 {
+    position: absolute;
+    top: 130px;
+    right: 260px;
+    font-size: 16px;
+    border-radius: 25px;
+    background: #EE7CB1;
+    color: white;
+    width: 170px;
+    height: 50px;
+    border: none;
+    box-shadow: 7px 7px 50px #AA597F;
+}
